@@ -14,7 +14,7 @@ abstract class TodoDatabase: RoomDatabase() {
     companion object {
         @Volatile
         private var instance: TodoDatabase? = null
-        private val LOCK = Any()
+
 
 //        fun buildDatabase(context: Context) =
 //            Room.databaseBuilder(
