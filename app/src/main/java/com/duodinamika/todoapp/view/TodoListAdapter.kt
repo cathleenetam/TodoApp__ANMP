@@ -28,7 +28,6 @@ class TodoListAdapter(val todoList:ArrayList<Todo>, val adapterOnClick : (Todo) 
         holder.binding.listener = this
         holder.binding.editListener = this
 
-
     }
 
     override fun getItemCount(): Int {
